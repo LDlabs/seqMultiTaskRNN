@@ -1,0 +1,5 @@
+model_checkpoint_path: "/scratch/gpfs/lduncker/data/l2h_0.0000001_l2w_0.00001_alphaProj_0.001/goantiset/new_opt/1/0/task_ckpts/model.ckpt-3"
+all_model_checkpoint_paths: "/scratch/gpfs/lduncker/data/l2h_0.0000001_l2w_0.00001_alphaProj_0.001/goantiset/new_opt/1/0/task_ckpts/model.ckpt-0"
+all_model_checkpoint_paths: "/scratch/gpfs/lduncker/data/l2h_0.0000001_l2w_0.00001_alphaProj_0.001/goantiset/new_opt/1/0/task_ckpts/model.ckpt-1"
+all_model_checkpoint_paths: "/scratch/gpfs/lduncker/data/l2h_0.0000001_l2w_0.00001_alphaProj_0.001/goantiset/new_opt/1/0/task_ckpts/model.ckpt-2"
+all_model_checkpoint_paths: "/scratch/gpfs/lduncker/data/l2h_0.0000001_l2w_0.00001_alphaProj_0.001/goantiset/new_opt/1/0/task_ckpts/model.ckpt-3"
