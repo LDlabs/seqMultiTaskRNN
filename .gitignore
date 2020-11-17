@@ -1,0 +1,5 @@
+*.pyc
+/data/example_run/*
+analyses/.ipynb_checkpoints/*
+*.DS_Store
+/data/trained_models/0/tf_fixed_pts_all_init/*
