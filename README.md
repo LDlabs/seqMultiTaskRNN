@@ -27,7 +27,7 @@ source seqRNN/bin/activate
 pip install -r requirements.txt
 ```
 
-Alternative, to create an environment with conda:
+Alternatively, to create an environment with conda:
 
 ```
 conda env create -f environment.yml
