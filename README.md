@@ -27,6 +27,13 @@ source seqRNN/bin/activate
 pip install -r requirements.txt
 ```
 
+Alternative, to create an environment with conda:
+
+```
+conda env create -f environment.yml
+conda activate seqRNN
+```
+
 ## Examples
 An example script for sequentially training an RNN on the task-set from the paper using our continual learning approach is provided in the script `example_sequential_training.py`
 
