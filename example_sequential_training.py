@@ -15,7 +15,8 @@ l2_w_value = 1e-5
 alpha_value = 0.001
 
 # set total number of iterations
-max_iter_steps = 7.5e6
+# max_iter_steps = 7.5e6 # from paper
+max_iter_steps = 1e6
 
 # save some info on what regularizers were used in folder structure
 folder = 'example_run'
