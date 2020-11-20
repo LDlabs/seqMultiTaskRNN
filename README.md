@@ -24,15 +24,17 @@ The code runs on Python 2.7 and an older tensorflow version. After cloning the r
 ```
 virtualenv -p /usr/bin/python2.7 seqRNN
 source seqRNN/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-cpu.txt
 ```
 
 Alternatively, to create an environment with conda:
 
 ```
-conda env create -f environment.yml
+conda env create -f environment-cpu.yml
 conda activate seqRNN
 ```
+
+Note that this installs tensorflow to run on your CPU. If you'd rather run tensorflow on a GPU, use `requirements-gpu.txt` or `environment-gpu.yml` instead.
 
 ## Examples
 An example script for sequentially training an RNN on the task-set from the paper using our continual learning approach is provided in the script `example_sequential_training.py`
